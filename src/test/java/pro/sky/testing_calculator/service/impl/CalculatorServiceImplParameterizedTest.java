@@ -3,14 +3,13 @@ package pro.sky.testing_calculator.service.impl;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.Arguments;
 import org.junit.jupiter.params.provider.MethodSource;
-import org.springframework.boot.test.context.SpringBootTest;
 import pro.sky.testing_calculator.service.CalculatorService;
 
 import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static pro.sky.testing_calculator.constants.CalculatorServiceTestConstants.*;
-@SpringBootTest
+
 public class CalculatorServiceImplParameterizedTest {
 
     private final CalculatorService out = new CalculatorServiceImpl();

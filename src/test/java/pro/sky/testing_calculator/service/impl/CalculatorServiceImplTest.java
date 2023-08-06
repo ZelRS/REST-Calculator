@@ -1,14 +1,13 @@
 package pro.sky.testing_calculator.service.impl;
 
 import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
 import pro.sky.testing_calculator.exceptions.NullArgumentInDividerException;
 import pro.sky.testing_calculator.service.CalculatorService;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertThrows;
 import static pro.sky.testing_calculator.constants.CalculatorServiceTestConstants.*;
-@SpringBootTest
+
 public class CalculatorServiceImplTest {
 
     private final CalculatorService out = new CalculatorServiceImpl();
